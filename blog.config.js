@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'MaybeEmerald',
+  title: 'Emerald Tablet',
   author: 'jade',
   email: 'emeraldone2023@outlook.com',
   link: 'https://t.me/emerald2021',
@@ -16,11 +16,11 @@ const BLOG = {
   sortByDate: true,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/Aatrox_12',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Notion'，'Indonesia'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
